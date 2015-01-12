@@ -20,7 +20,7 @@
  * PLUGIN BASE (ele é responsável por montar o ambiente para realizar as requisições, o que pode ser incômodo caso a URL do PagSeguro altere por exemplo):
  *   https://github.com/ftgoncalves/pagseguro/  de Felipe Theodoro Gonçalves, (http://ftgoncalves.com.br)
  */
-class RetornoPagSeguroComponent extends PagSeguroComponent {
+class RetornoComponent extends PagSeguroComponent {
 
     private $consultaPorCodigo = null;
 
